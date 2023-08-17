@@ -20,6 +20,12 @@ footer:before, footer div { padding: 3em;
   to { background-position: 1600px 130%, 3150px 130%, 5300px 130%; }
 }
 
+
+@media (prefers-reduced-motion) {
+  footer:before, footer div { animation: none; }
+}
+
+
 @media screen and (max-width: 800px){
     figure { width: 80vw; }
 }
