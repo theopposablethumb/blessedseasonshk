@@ -2,7 +2,6 @@ const copyrightYear = () => {
     document.querySelector('footer span').innerHTML = new Date().getFullYear();
   }
   
-  
   const makeItSo = () => {
     document.addEventListener("DOMContentLoaded", () => {
       copyrightYear();
